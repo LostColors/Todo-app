@@ -7,7 +7,6 @@
 }
 
 body{
-  /* user-select: none; */
 background-color: rgba(235, 234, 234, 0.993);
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 font-size: 22px;
@@ -74,8 +73,11 @@ button{
   text-decoration: line-through;
 }
 .title{
+  max-height: 83px;
   display: inline-block;
   margin-left: 30px;
+  max-width: 435px;
+  overflow: hidden;
 }
 .title.active{
 display: none;
@@ -202,7 +204,6 @@ transform: translateY(8%);
 
 
 
-/* bottom tools* */
 .bottom-tools{
   display: flex;
   justify-content: space-between;

@@ -104,10 +104,6 @@ const App = () => {
 
 
 
-// логика поля ввода, ответственного за создание задач
-
-
-
 const [inputClass, setInputClass] = useState('input-create')
 const [targetItemClass, setTargetItemClass] = useState('targetItem')
 const [targetItemRClass, setTargetItemRClass] = useState('targetItemR')
@@ -150,7 +146,6 @@ const closeInput = () => {
 }
 
 
-// ---------------------------------------------------
 
 const InputR = () => {
   setTargetItemRClass('targetItemR active')
@@ -167,7 +162,6 @@ setValueEdit('')
 }
 
 
-// ---------Btn-tools-----------------------------------
 const [all, setAll] = useState(true)
 const [active, setActive] = useState('')
 
